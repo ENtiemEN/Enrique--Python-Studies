@@ -13,3 +13,11 @@ print(f"Max -> {np.max(array)}. In the index [{np.argmax(array)}]")
 
 print(array[1][-2])
 #print(array[9])
+
+# --- --- --- --- --- --- ---
+print('\n')
+
+print(np.sum(array, axis=0))
+print(np.sum(array, axis=1))
+
+
